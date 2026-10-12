@@ -1,7 +1,7 @@
 {
   "$schema": "../../schema/bot.schema.json",
-  "slug": "migration-safety-reviewer",
-  "name": "Migration Reviewer",
+  "slug": "schema-drift-reviewer",
+  "name": "Schema Drift Reviewer",
   "description": "Audit database schema drift and safely draft migration PRs using schemadrift",
   "category": "Developer workflow",
   "about": "Audits PostgreSQL database schema drift across environments and snapshots. Runs schemadrift to catch unindexed foreign keys and missing primary keys, enforces safety approval gates before any destructive drops, and drafts reviewed migration pull requests.",
